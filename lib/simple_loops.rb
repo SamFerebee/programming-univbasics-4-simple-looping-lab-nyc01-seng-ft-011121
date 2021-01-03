@@ -24,6 +24,7 @@ def return_string_array(array)
   counter = 0 
   string_array []
   while (counter < array.size) do
-    string_array.push(array[counter].to_stri)
-    
+    string_array.push(array[counter].to_s)
+  end
   string_array
+end
